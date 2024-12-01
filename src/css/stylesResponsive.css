@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
-    .content {
-        all: unset;
-    }
+  .content {
+    all: unset;
+  }
   .container {
     gap: 25px;
     flex-direction: column-reverse;
@@ -49,5 +49,9 @@
 
   .texto-xxl {
     font-size: larger;
+  }
+
+  .countdown span {
+    font-size: 42px;
   }
 }
