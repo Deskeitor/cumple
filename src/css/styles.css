@@ -183,6 +183,7 @@ img {
 iframe {
   width: 100%;
   height: 100%;
+  min-height: 40vh;
   border: 1px solid var(--color-75);
   border-radius: 5px;
 }
