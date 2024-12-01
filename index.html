@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/styles.css" />
+    <link rel="stylesheet" href="src/css/stylesResponsive.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Menu -->
+      <div class="header">
+        <ul>
+          <li class="menu-item active">
+            <a href="#home"
+              ><img src="src/icons/party-popper.svg" class="icon"
+            /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#date"
+              ><img src="src/icons/calendar-clock.svg" class="icon"
+            /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#location"
+              ><img src="src/icons/map-pin.svg" class="icon"
+            /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#route"
+              ><img src="src/icons/waypoints.svg" class="icon"
+            /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#kakegurui"><img src="src/icons/palette.svg" class="icon" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#games"><img src="src/icons/dices.svg" class="icon" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#karaoke"><img src="src/icons/mic-vocal.svg" class="icon" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#rules"><img src="src/icons/gavel.svg" class="icon" /></a>
+          </li>
+          <li class="menu-item">
+            <a href="#gifts"><img src="src/icons/gift.svg" class="icon" /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- Content -->
+      <div class="content">
+        <a target="_blank" href="https://calendar.app.google/S9BXteG2FxRxuzRdA">
+          <div class="card" id="home">
+            <img src="src/img/home.webp" alt="Invitacion" class="img" />
+            <div class="span-container">
+              <span class="titulo">¡ATENCIÓN!</span>
+              <p class="texto-xxl">
+                ¡Este no es un cumpleaños cualquiera! Este es mi GRAN TREINTENA y quiero celebrarlo. Así que no tienes excusas para faltar.
+                <br />
+                Espero verte ahí para celebrar juntos que ya no soy Chill Guy de cojones.
+                ¡No faltes!
+                <br />
+                <strong>Confirma tu asistencia dando clic en aquí.</strong>
+                <br />
+              </p>
+            </div>
+          </div>
+        </a>
+        <div class="card" id="date">
+          <img src="src/img/date.webp" class="img" />
+          <div class="span-container">
+            <span class="titulo">¿CUÁNDO?</span>
+            <br/>
+            <span class="texto-xxl">18/Enero/2025 2:00 pm</span>
+            <br/><br />
+            <span class="texto-xxl">Comienza en:</span>
+            <div id="countdown">
+              <ul class="countdown">
+                <li><span id="days">1</span>Días</li>
+                <li><span id="hours">1</span>Horas</li>
+                <li><span id="minutes">1</span>Minutos</li>
+                <li><span id="seconds">1</span>Segundos</li>
+              </ul>
+            </div>
+            <br /><br />
+            <span class="texto-xxl">Anótalo en tu calendario</span>
+          </div>
+        </div>
+        <div class="card" id="location">
+          <img src="src/img/location.webp"  class="img">
+          <div class="span-container">
+            <span class="titulo">¿DÓNDE?</span>
+            <span class="texto-xxl"
+              >Abasolo 18, Col. Los Puestos, Tlaquepaque, Jalisco</span
+            >
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2smx!4v1733006611803!5m2!1ses-419!2smx!6m8!1m7!1sUhCVetPIqZ-7LAIBqG_OpQ!2m2!1d20.60316329800828!2d-103.2666174830277!3f275.0312!4f0!5f0.7820865974627469"
+               loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="card" id="route">
+          <img src="src/img/route.webp" class="img">
+          <div class="span-container">
+            <span class="titulo">¿COMO LLEGAR?</span>
+            <span class="texto-xxl">Rutas que te dejan en el punto</span>
+            <ul class="rutas">
+              <li>C58 (644B Jauja/Cima Serena)</li>
+              <li>C60 (644B Santa Isabel)</li>
+              <li>C62 (644B Carril)</li>
+              <li>C86 (644B IBM-Verde)</li>
+              <li>T21 (Zapotlanejo)</li>
+              <li>180B (Villas Andalucia)</li>
+              <li>C05 (136 Las puertas)</li>
+              <li>C06 (136A Parques de la victoria)</li>
+            </ul>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m22!1m8!1m3!1d1867.308433031287!2d-103.2651436!3d20.6036983!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d20.6058652!2d-103.26181609999999!4m5!1s0x8428b300283b374f%3A0x5d247bc4f58e3fe8!2sAbasolo%2018%2C%20C.%20Jose%20Mariano%20Abasolo%2018%2C%20Los%20Puestos%2C%2045638%20San%20Pedro%20Tlaquepaque%2C%20Jal.!3m2!1d20.6031703!2d-103.2666651!5e0!3m2!1ses-419!2smx!4v1732990940700!5m2!1ses-419!2smx"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+        <div class="card" id="kakegurui">
+          <img src="src/img/kakegurui.webp" alt="Invitacion" class="img" />
+          <div class="span-container">
+            <span class="titulo">KAKEGURUI MASHO</span>
+            <p class="texto-xxl">
+              El tema de la fiesta será <strong>JUEGOS Y APUESTAS</strong> al puro estilo de Yumeko, así que ven preparado para
+              apostar hasta el alma.
+              <br />
+              No es fiesta de disfrazes, pero si quieres entrar en personaje, OK.
+            </p>
+          </div>
+        </div>
+        <div class="card" id="games">
+          <img src="src/img/games.webp" class="img">
+          <div class="span-container">
+            <span class="titulo">JUEGOS</span>
+            <p class="texto-xxl">
+              Habrá varias actividades y juegos de mesas en los que tendrás que apostar tus fichas para obtener más de ellas y poder conseguir recompensas.
+              <br/><br/>
+              Algunos títulos incluidos son:
+            </p>
+              <ul class="rutas texto-xxl">
+                <li>Here to Slay</li>
+                <li>Trivia Harry Potter</li>
+                <li>Jenga</li>
+                <li>Scrabble</li>
+                <li>Side Effects</li>
+                <li>Clue</li>
+                <li>One night Werewolf</li>
+                <li>Salem</li>
+                <li>Ajedrez</li>
+                <li>Catan</li>
+                <li>Just Dance</li>
+                <li>Basta</li>
+                <li>Pictonary</li>
+                <li>UNO</li>
+                <li>Loteria Pokemon</li>
+              </ul>
+            <p class="texto-xxl">
+              Eres libre de traer otros juegos de mesa diferentes, solo ponte en contacto conmigo para contemplarlos.
+            </p>
+          </div>
+        </div>
+        <div class="card" id="karaoke">
+          <img src="src/img/karaoke.webp" class="img">
+          <div class="span-container">
+            <span class="titulo">KARAOKE</span>
+            <p class="texto-xxl">
+              ¿Te quedaste sin fichas?
+              <br /><br />
+              No te preocupes, deleitanos con una canción y obtén unas cuantas más para seguir apostando.
+            </p>
+            <p class="texto-xxl">
+              ¿Te gusta cantar?
+              <br /><br />
+              También puedes hacerlo por puro amor al arte.
+            </p>
+          </div>
+        </div>
+        <div class="card" id="rules">
+          <img src="src/img/rules.webp" class="img">
+          <div class="span-container">
+            <span class="titulo">REGLAS</span>
+            <p class="texto-xxl">No todo en la vida es bonito, en todos lados hay reglas. Aqui las importantes a saber antes del evento:</p>
+            <ul class="reglas">
+              <li><strong>Llegar puntual. </strong>Llega a tiempo, se explicarán algunas cosas al inicio del evento.</li>
+              <li><strong>+1 not allowed. </strong>En esta ocasión no esta permitido que el invitado invite +1.</li>
+              <li><strong>Participar. </strong>Si las actividades no son de tu agrado, no hay problema, te extrañaremos en el evento.</li>
+              <li><strong>Confirma tu asistencia. </strong>Para la organización del evento es necesario saber si vendrás, <a target="_blank" href="https://calendar.app.google/S9BXteG2FxRxuzRdA">CONFIRMA POR FAVOR</a>.</li>
+              <li><strong>Bebidas. </strong>La casa invita comida, trae tu bebida preferida.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="card" id="gifts">
+          <img src="src/img/gifts.webp" class="img">
+          <div class="span-container">
+            <span class="titulo">SORPRESAS</span>
+            <p class="texto-xxl">
+              De algo tiene que servir apostar. Al final del dia veremos quien es el ganador del la noche al que le tocará ser la galleta.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="src/js/funciones.js"></script>
+  </body>
+</html>
