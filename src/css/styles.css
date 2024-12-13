@@ -188,6 +188,14 @@ iframe {
   border-radius: 5px;
 }
 
+.inside-img {
+  width: 75%;
+  height: auto;
+  border: 1px solid var(--color-75);
+  margin: auto;
+  padding: auto;
+}
+
 .countdown {
   display: flex;
   justify-content: space-evenly;
